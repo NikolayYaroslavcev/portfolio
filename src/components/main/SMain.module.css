@@ -1,0 +1,236 @@
+.main {
+    /*background-color: #abe3ab;*/
+    flex: 1 1 auto;
+}
+
+.__container {
+
+}
+
+.about {
+    padding: 30px 0;
+    background-color: #d4d6d7;
+}
+
+.aboutAs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    align-self: center;
+    margin-right: 10px;
+}
+
+.titleAbout {
+    font-size: 40px;
+    line-height: 1.5;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+.text span {
+    display: flex;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+.imageIbg {
+    position: relative;
+    padding-bottom: 30%;
+    padding-left: 54%;
+}
+
+.imageIbg img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    max-width: 640px;
+}
+
+@media (max-width: 767.98px) {
+
+    .about {
+        padding: 15px 0 40px 0;
+    }
+
+    .aboutAs {
+        flex-wrap: wrap;
+        row-gap: 20px;
+        justify-content: center;
+    }
+
+    .titleAbout {
+        font-size: 45px;
+    }
+
+    .text {
+        font-size: 40px;
+    }
+
+    .text span {
+        display: inline;
+    }
+
+    .imageIbg {
+        padding-bottom: 47%;
+        width: 100%;
+    }
+
+    .imageIbg img {
+        max-width: 100%;
+    }
+
+    .content {
+        text-align: center;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 614.98px) {
+    .__container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 425.98px) {
+    .titleAbout {
+        font-size: 35px;
+    }
+
+    .text {
+        font-size: 30px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+}
+
+/**********SKILLS****************************** */
+
+.skills {
+    padding: 30px 0;
+    background-color: #eaedee;
+}
+
+.title {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+@media (max-width: 425.98px) {
+
+    .title {
+        font-size: 29px;
+    }
+}
+
+/**********portfolio****************************** */
+
+.portfolio {
+    padding: 30px 0;
+    background-color: #d4d6d7;
+}
+
+.works {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/**********remoteJob****************************** */
+
+.remoteJob {
+    padding: 30px 0;
+    background-color: #eaedee;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 2;
+    color: #be52a6;
+    background-color: #c5c2c2;
+    padding: 5px 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    align-self: stretch;
+    font-family: 'Roboto', sans-serif;
+}
+
+/**********contacts****************************** */
+.contacts {
+    padding: 30px 0;
+    background-color: #d4d6d7;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    border-radius: 10px;
+    min-height: 30px;
+    width: 100%;
+    display: block;
+    padding: 16px 22px;
+    border: 1px solid #bebebe;
+    max-width: 400px;
+}
+
+.inputTextarea {
+    display: block;
+    border-radius: 10px;
+    min-height: 80px;
+    width: 100%;
+    padding: 16px 22px;
+    border: 1px solid #bebebe;
+    max-width: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+
+}
+
+.form button {
+    max-width: 400px;
+    width: 100%;
+    align-self: stretch;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 767.98px) {
+
+    .contacts, .remoteJob, .portfolio, .skills {
+        padding: 15px 0;
+    }
+}
+
+
+

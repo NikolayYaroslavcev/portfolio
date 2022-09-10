@@ -1,0 +1,20 @@
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+
+}
+[class*="__container"] {
+    max-width: 1100px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+* {
+    min-width: 0;
+}
+
