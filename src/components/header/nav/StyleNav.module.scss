@@ -1,0 +1,53 @@
+.__container {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: white;
+  height: 100vh;
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 380px;
+    height: 100vh;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    color: #212228;
+    font-size: 18px;
+    font-weight: 700;
+
+    .item {
+      margin: 0 40px;
+      padding: 10px 15px;
+
+      .link a {
+        text-decoration: none;
+        @media (max-width: 425.98px) {
+          .list {
+            font-size: 16px;
+          }
+        }
+      }
+
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
+

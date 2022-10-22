@@ -1,5 +1,5 @@
 import React from 'react';
-import SWork from "./SWork.module.css"
+import SWork from './SWork.module.scss'
 
 export const Work = () => {
     return (
@@ -14,11 +14,11 @@ export const Work = () => {
                     <a href="src/components/main/work/Work#" className={SWork.link}>Смотреть</a>
                 </div>
             </div>
-            <div className={SWork.tittle}>Название проекта</div>
-            <div className={SWork.text}> React — JavaScript-библиотека с открытым исходным кодом для разработки
-                пользовательских интерфейсов. React разрабатывается и поддерживается Facebook, Instagram и сообществом
-                отдельных разработчиков и корпораций. React может использоваться для разработки одностраничных и
-                мобильных приложений.
+            <div className={SWork.tittle}>Project name</div>
+            <div className={SWork.text}> React is an open-source JavaScript library for developing
+                user interfaces. React is developed and supported by Facebook, Instagram, and a community of
+                of individual developers and corporations. React can be used to develop single-page and
+                mobile applications.
             </div>
         </div>
     );

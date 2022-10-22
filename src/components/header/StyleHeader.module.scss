@@ -1,0 +1,22 @@
+.header {
+  position: fixed;
+  background-color: #18191d;
+  color: white;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  .__container {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    @media (max-width: 767px) {
+      .__container {
+        justify-content: center;
+      }
+    }
+
+  }
+}
+
