@@ -1,11 +1,14 @@
+@import "./src/styles/scss/variables.scss";
 .App {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     overflow: hidden;
     position: relative;
-    font-family: 'Syne', sans-serif;
-
+    font-family: $fontFamilySyne;
+    background-color: $bgColor;
+    color:$textColor;
+    font-size: $textFontSize;
 }
 [class*="__container"] {
     max-width: 1140px !important;

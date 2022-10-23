@@ -1,76 +1,172 @@
-.card {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  padding: 40px 30px;
-  min-height: 400px;
-  border-radius: 20px;
-  flex: 1 1 25%;
-  min-width: 300px;
-  row-gap: 20px;
-
-  .image {
-    display: flex;
-    flex: 0 0 70px;
-    width: 70px;
-    align-items: flex-end;
-    justify-content: center;
-
-    img {
-      max-width: 100%;
-      max-height: 70px;
-    }
-  }
-
-  .title {
-    font-size: 28px;
-    line-height: 1.3;
-  }
-
-  .bar {
-    .ability {
-      width: 100%;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 1.5em;
-      color: #868a9b;
+.about {
+  .__container {
+    .aboutAs {
       display: flex;
       justify-content: space-between;
-      column-gap: 10px;
-    }
+      align-items: center;
+      min-height: 100vh;
+      column-gap: 70px;
+      line-height: 1.3em;
+      @media (max-width: 1134.98px) {
+        column-gap: 40px;
+      }
+      @media (max-width: 767.98px) {
+        flex-wrap: wrap;
+        padding-top: 80px;
+        padding-right: 10px;
+        justify-content: center;
+        text-align: center;
+        display: block;
+      }
+      @media (max-width: 425.98px) {
+        row-gap: 0;
+      }
 
-      .blackFill {
-        min-width: 320px;
+      .imageIbg {
         position: relative;
-        background-color: #212228;
-        border-radius: 10px;
-        height: 10px;
+        padding-bottom: 30%;
+        padding-left: 41%;
+        @media (max-width: 1134.98px) {
+          padding-bottom: 40%;
+        }
+        @media (max-width: 770.98px) {
+          padding-bottom: 42%;
+        }
+
+        img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          border-radius: 25% 10%;
+          box-shadow: 12px 12px 2px 1px rgba(255, 255, 255, .2);
+          border: 6px solid #fff;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+          max-width: 640px;
+          @media (max-width: 764.98px) {
+            height: 120%;
+          }
+          @media (max-width: 320.98px) {
+            height: 140%;
+          }
+        }
       }
 
-      .whiteFill {
-        position: absolute;
-        height: 10px;
-        left: 0;
-        top: 0;
-        width: 250px;
-        background-color: #f30000;
-        border-radius: 10px;
-      }
-    }
+      .content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
 
-    .text {
-      text-align: center;
-      line-height: 1.5;
-      font-size: 16px;
+        .block {
+
+        }
+
+        .title {
+          font-size: 42px;
+          line-height: 1.3em;
+          font-weight: 800;
+          text-transform: uppercase;
+          text-shadow: 2px 2px #212228;
+          @media (max-width: 1134.98px) {
+            font-weight: 800;
+          }
+          @media (max-width: 1038.98px) {
+            font-size: 35px;
+          }
+          @media (max-width: 894.98px) {
+            font-size: 30px;
+          }
+          @media (max-width: 767.98px) {
+            font-weight: 800;
+            font-size: 50px;
+            padding-top: 100px;
+          }
+          @media (max-width: 730.98px) {
+            font-weight: 800;
+            font-size: 47px;
+            padding-top: 90px;
+            padding-bottom: 40px;
+          }
+          @media (max-width: 659.98px) {
+            font-weight: 800;
+            font-size: 43px;
+            padding-top: 70px;
+            padding-bottom: 30px;
+          }
+          @media (max-width: 598.98px) {
+            font-weight: 800;
+            font-size: 37px;
+            padding-top: 70px;
+            padding-bottom: 30px;
+          }
+          @media (max-width: 530.98px) {
+            font-weight: 800;
+            font-size: 33px;
+          }
+          @media (max-width: 465.98px) {
+            font-weight: 800;
+            font-size: 28px;
+          }
+
+          @media (max-width: 398.98px) {
+            font-weight: 800;
+            font-size: 26px;
+          }
+          @media (max-width: 374.98px) {
+            font-weight: 800;
+            font-size: 22px;
+          }
+          @media (max-width: 320.98px) {
+            font-weight: 800;
+            font-size: 22px;
+            padding-top: 100px;
+            padding-bottom: 20px;
+          }
+        }
+
+        .text {
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 2px;
+          margin-bottom: 20px;
+          @media (max-width: 767.98px) {
+            margin-bottom: 0
+          }
+
+        }
+
+        .about {
+          line-height: 1.3em;
+          font-weight: 400;
+          margin-bottom: 50px;
+          @media (max-width: 767.98px) {
+            margin-bottom: 20px
+          }
+        }
+
+        .btnLink {
+          a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1.3em;
+            position: relative;
+            display: block;
+            z-index: 99;
+            top: 50%;
+            text-align: center;
+
+            .icon {
+              font-size: 14px;
+              margin-left: 7px;
+            }
+          }
+
+        }
+
+      }
 
     }
   }
+}
 
-
-  @media (max-width: 768.98px) {
-    .card {
-      padding: 25px 20px;
-    }
-  }

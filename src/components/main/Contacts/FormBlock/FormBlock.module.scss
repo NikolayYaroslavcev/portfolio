@@ -1,52 +1,86 @@
-.work {
+.formBlock {
+  flex: 0 0 auto;
+  width: 50%;
+  align-items: center;
+
+  @media (max-width: 624.98px) {
+    width: 70%;
+  }
+
+  @media (max-width: 425.98px) {
+    width: 100%;
+  }
+
+  .form {
     display: flex;
     flex-direction: column;
-    min-width: 350px;
-    text-align: center;
-    gap: 20px;
-    flex: 1 1 25%;
-    min-height: 500px;
-}
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
 
-.preview {
+    .input {
+      max-width: 100%;
+      margin-bottom: 20px;
+      padding: 15px 0;
+      height: auto;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-width: 0 0 2px;
+      border-style: solid;
+      display: block;
+      width: 100%;
+      line-height: 1.5em;
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #868a9b;
+      background-image: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    }
 
-}
-.image {
-    position: relative;
-    padding-bottom: 50%;
-    text-align: center;
-}
 
-.image img {
-    position: absolute;
+    .inputTextarea {
+      max-width: 100%;
+      margin-bottom: 20px;
+      padding: 15px 0;
+      height: auto;
+      background-color: transparent;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      border-width: 0 0 2px;
+      border-style: solid;
+      display: block;
+      width: 100%;
+      line-height: 1.5em;
+      font-family: 'Syne', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #868a9b;
+      background-image: none;
+      border-bottom: 2px solid
+    }
+
+  }
+
+  .formBlockButton {
+    display: inline-block;
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.link {
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-    font-weight: 500;
+    transition: all 0.3s;
     font-size: 20px;
-    line-height: 2;
-    color: #be52a6;
-    background-color: #f1e8e8;
-    padding: 5px 30px;
-    border-radius: 20px;
-}
-.tittle {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 2;
-}
-.text {
-    line-height: 1.5;
-}
+    color: #fff;
+    background-color: #4e4e4e;
+    padding: 10px 30px;
+    border-radius: 10px;
+    align-self: stretch;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+    cursor: pointer;
 
 
+    &:hover {
+      background-color: #464242;
+    }
+  }
+}

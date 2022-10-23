@@ -1,7 +1,14 @@
+
+
 .footer {
   padding: 30px 0;
-  color: white;
-  background-color: #18191d;
+  @media (max-width: 425.98px) {
+    padding: 0 0 30px 0;
+  }
+  @media (max-width: 320.98px) {
+    padding: 0 0 30px 0;
+  }
+
 
   .__container {
     display: flex;
@@ -19,58 +26,43 @@
     .information {
       display: flex;
       justify-content: center;
-      gap: 10px;
+      gap: 30px;
       align-items: center;
+      font-size: 35px;
 
-      .icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
+      .block {
+        .link {
+          .icon {
+            transition: all 0.3s;
 
-      .span {
-        position: absolute;
-        text-align: center;
-        left: 50%;
-        transform: translateX(-50%);
-        min-width: 50px;
-        bottom: -100%;
-        opacity: 0;
-
-      }
-
-      a span {
-        flex: 0 0 50px;
-        min-height: 45px;
-        transition: all 0.3s;
-
-      }
-
-      :hover {
-        span {
-          scale: 1.1;
+            :hover {
+              span {
+                scale: 1.1;
+              }
+            }
+          }
         }
+
       }
-
-      .informationIcons {
-        span {
-          flex: 0 0 50px;
-          min-height: 45px;
-          transition: all 0.3s;
-          cursor: pointer;
-        }
-      }
-
-
     }
 
-    @media (max-width: 767.98px) {
-      .footer {
-        padding: 15px 0;
-      }
+  }
 
-    }
+  .text {
+
   }
 }
+
+//      a span {
+//        flex: 0 0 50px;
+//        min-height: 45px;
+//        transition: all 0.3s;
+//      }
+//
+//      :hover {
+//        span {
+//          scale: 1.1;
+//        }
+//      }
 
 
