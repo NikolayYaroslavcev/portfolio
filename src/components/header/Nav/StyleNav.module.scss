@@ -23,17 +23,19 @@
     font-size: 18px;
     font-weight: 700;
 
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      .active {
+
+      }
+
+    }
+
     .item {
       margin: 0 40px;
       padding: 10px 15px;
 
-      .link a {
-        text-decoration: none;
-        @media (max-width: 425.98px) {
-          .list {
-          }
-        }
-      }
 
     }
   }

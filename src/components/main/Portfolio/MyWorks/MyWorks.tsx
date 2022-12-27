@@ -1,7 +1,15 @@
 import React from 'react';
 import sMyWorks from './SMyWorks.module.scss'
 
-export const MyWorks = () => {
+
+
+type PropsType = {
+    title: string,
+    description: string
+}
+
+export const MyWorks = (props:PropsType) => {
+    const {title,description} = props
     return (
         <div className={sMyWorks.work}>
             <div className={sMyWorks.preview}>
@@ -14,11 +22,8 @@ export const MyWorks = () => {
                     <a href="src/components/main/work/Work#" className={sMyWorks.link}>Смотреть</a>
                 </div>
             </div>
-            <div className={sMyWorks.tittle}>Project name</div>
-            <div className={sMyWorks.text}> React is an open-source JavaScript library for developing
-                user interfaces. React is developed and supported by Facebook, Instagram, and a community of
-                of individual developers and corporations. React can be used to develop single-page and
-                mobile applications.
+            <div className={sMyWorks.tittle}>{title}</div>
+            <div className={sMyWorks.text}> {description}
             </div>
         </div>
     );

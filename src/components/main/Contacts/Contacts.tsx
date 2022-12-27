@@ -5,7 +5,7 @@ import {FormBlock} from './FormBlock/FormBlock';
 
 export const Contacts = () => {
     return (
-        <div className={sContacts.contacts}>
+        <div id='contact' className={sContacts.contacts}>
             <div className={sContacts.__container}>
                 <p className={sContacts.subTitle}>GET IN TOUCH</p>
                 <h2 className={sContacts.title}>CONTACT DETAILS</h2>

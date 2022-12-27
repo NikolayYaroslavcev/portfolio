@@ -1,24 +1,19 @@
 .work {
   display: flex;
   flex-direction: column;
-  min-width: 350px;
+  width: 610px;
   text-align: center;
   gap: 20px;
   flex: 1 1 25%;
-  min-height: 500px;
+  height: 500px;
   padding: 0 10px;
-  @media (max-width: 425.98px) {
-    padding: 0 20px;
-    min-height: 0;
-  }
-  @media (max-width: 320.98px) {
-    padding: 0 20px;
-  }
+  background-color: #868a9b;
+
 
   .preview {
     .image {
       position: relative;
-      padding-bottom: 50%;
+      padding-bottom: 60%;
       text-align: center;
 
 

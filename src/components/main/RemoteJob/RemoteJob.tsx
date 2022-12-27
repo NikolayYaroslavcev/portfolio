@@ -10,7 +10,7 @@ export const RemoteJob = () => {
             <div className={sRemoteJob.__container}>
                 <h2 className={sRemoteJob.title}> Considering remote work</h2>
                 <div className={sRemoteJob.btn}>
-                    <div className={sRemoteJob.button}><a href="https://shtheme.com/demosd/nilswp/?page_id=91">Download
+                    <div className={sRemoteJob.button}><a href="https://shtheme.com/demosd/nilswp/?page_id=91" target="_blank" download>Download
                         CV
                             <FontAwesomeIcon className={sRemoteJob.icon} icon={faArrowDown}/>
                     </a>

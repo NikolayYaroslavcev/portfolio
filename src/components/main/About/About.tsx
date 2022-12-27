@@ -6,11 +6,11 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 export const About = () => {
     return (
-        <div className={sAbout.about}>
+        <div id="home" className={sAbout.about}>
             <div className={sAbout.__container}>
                 <div className={sAbout.aboutAs}>
                     <div className={sAbout.imageIbg}>
-                        <img src={ava} alt="#"/>
+                        <img className={sAbout.imageRadius} src={ava} alt="#"/>
                     </div>
                     <div className={sAbout.content}>
                         <h1 className={sAbout.title}>
@@ -20,13 +20,22 @@ export const About = () => {
                             FRONT-END DEVELOPER (REACT DEVELOPER)
                         </p>
                         <p className={sAbout.about}>
-                            Hi, I’m Nikolay Yaroslavtcev and I am creative Front-end developer who dream making the
-                            world better place by creating captivating products.
+                            Hi, I am Nikolai Yaroslavtsev. I have
+                            experience in creating SPA using
+                            React/Redux/TypesScript individually
+                            and in team. At the moment I am
+                            studying React Native and the book
+                            Grokking Algorithms and practicing
+                            with tutor in English.
+                            Open to your suggestions
                         </p>
                         <div className={sAbout.btnLink}>
-                            <a href="#">Download
+                            <a href="../../../components/file/portfolio.pdf" download>Download
                             CV <FontAwesomeIcon className={sAbout.icon} icon={faArrowDown}/>
                         </a>
+                            <a href="../../../components/file/react-table-demo-main.zip" download>Download
+                                CV <FontAwesomeIcon className={sAbout.icon} icon={faArrowDown}/>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import StyleFooter from './SFooter.module.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faMobile, faLocationDot} from '@fortawesome/free-solid-svg-icons';
+import {faLocationDot, faMobile} from '@fortawesome/free-solid-svg-icons';
 import {faTelegram} from '@fortawesome/free-brands-svg-icons/faTelegram';
 import {faLinkedin} from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
@@ -21,25 +21,25 @@ export const Footer = () => {
                     </div>
 
                     <div className={StyleFooter.block}>
-                        <a href="https://surl.li/djvkl" className={StyleFooter.link}>
+                        <a href="https://surl.li/djvkl" target="_blank" className={StyleFooter.link}>
                             <FontAwesomeIcon className={StyleFooter.icon} icon={faLocationDot}/></a>
                     </div>
 
                     <div className={StyleFooter.block}>
-                        <a href="http://surl.li/djvkl" className={StyleFooter.link}>
+                        <a href="http://surl.li/djvkl" target="_blank" className={StyleFooter.link}>
                             <FontAwesomeIcon className={StyleFooter.icon} icon={faLinkedin}/></a>
                     </div>
 
                     <div className={StyleFooter.iconsBlock}>
-                        <a href="https://t.me/aquariumlifee" className={StyleFooter.informationIcons}>
+                        <a href="https://t.me/aquariumlifee" target="_blank" className={StyleFooter.informationIcons}>
                             <FontAwesomeIcon className={StyleFooter.block__icon} icon={faTelegram}/></a>
                     </div>
                     <div className={StyleFooter.iconsBlock}>
-                        <a href="http://surl.li/djvoh" className={StyleFooter.informationIcons}>
+                        <a href="http://surl.li/djvoh" target="_blank" className={StyleFooter.informationIcons}>
                             <FontAwesomeIcon className={StyleFooter.block__icon} icon={faGithub}/></a>
                     </div>
                     <div className={StyleFooter.iconsBlock}>
-                        <a href="https://www.codewars.com/users/NikolayYaroslavcev"
+                        <a href="https://www.codewars.com/users/NikolayYaroslavcev" target="_blank"
                            className={StyleFooter.informationIcons}>
                             <FontAwesomeIcon className={StyleFooter.block__icon} icon={faFileCode}/></a>
                     </div>

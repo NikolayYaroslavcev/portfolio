@@ -8,6 +8,7 @@
     @media (max-width: 342.98px) {
       margin-bottom: 20px;
     }
+
     .title {
       display: inline-block;
       font-weight: 700;
@@ -54,9 +55,8 @@
     }
 
     .skill {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 15px;
+      padding: 0 -10px;
+
     }
   }
 

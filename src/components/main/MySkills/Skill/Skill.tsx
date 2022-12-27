@@ -1,7 +1,18 @@
 import React from 'react';
 import SSkill from './SSkill.module.scss'
+// import 'slick-carousel/slick/slick.css';
+// import 'slick-carousel/slick/slick-theme.css';
 
-export const Skill = () => {
+
+
+type PropsType = {
+    id:number
+    title: string,
+    description: string
+}
+
+export const Skill = (props:PropsType) => {
+    const {title,description}= props
     return (
         <div className={SSkill.card}>
             <div className={SSkill.image}>
@@ -9,7 +20,7 @@ export const Skill = () => {
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
                     alt="react"/>
             </div>
-            <p className={SSkill.title}>React</p>
+            <p className={SSkill.title}>{title}</p>
             <div className={SSkill.bar}>
                 <div className={SSkill.ability}>
                     <p className={SSkill.name}>React</p>
@@ -20,10 +31,10 @@ export const Skill = () => {
                 </div>
 
             </div>
-            <p className={SSkill.text}>React is an open-source JavaScript library for developing user interfaces. React
-                is developed and supported by Facebook, Instagram, and a community of of individual developers and
-                corporations. React can be used to develop single-page and mobile applications.</p>
+            <p className={SSkill.text}>{description}</p>
         </div>
     );
 };
+
+
 
