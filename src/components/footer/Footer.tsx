@@ -30,21 +30,21 @@ export const Footer = () => {
                             <FontAwesomeIcon className={StyleFooter.icon} icon={faLinkedin}/></a>
                     </div>
 
-                    <div className={StyleFooter.iconsBlock}>
-                        <a href="https://t.me/aquariumlifee" target="_blank" className={StyleFooter.informationIcons}>
-                            <FontAwesomeIcon className={StyleFooter.block__icon} icon={faTelegram}/></a>
+                    <div className={StyleFooter.block}>
+                        <a href="https://t.me/aquariumlifee" target="_blank" className={StyleFooter.link}>
+                            <FontAwesomeIcon className={StyleFooter.icon} icon={faTelegram}/></a>
                     </div>
-                    <div className={StyleFooter.iconsBlock}>
-                        <a href="http://surl.li/djvoh" target="_blank" className={StyleFooter.informationIcons}>
-                            <FontAwesomeIcon className={StyleFooter.block__icon} icon={faGithub}/></a>
+                    <div className={StyleFooter.block}>
+                        <a href="http://surl.li/djvoh" target="_blank" className={StyleFooter.link}>
+                            <FontAwesomeIcon className={StyleFooter.icon} icon={faGithub}/></a>
                     </div>
-                    <div className={StyleFooter.iconsBlock}>
+                    <div className={StyleFooter.block}>
                         <a href="https://www.codewars.com/users/NikolayYaroslavcev" target="_blank"
-                           className={StyleFooter.informationIcons}>
-                            <FontAwesomeIcon className={StyleFooter.block__icon} icon={faFileCode}/></a>
+                           className={StyleFooter.link}>
+                            <FontAwesomeIcon className={StyleFooter.icon} icon={faFileCode}/></a>
                     </div>
                 </div>
-                <p className={StyleFooter.text}>© 2022 All rights reserved.</p>
+                <p className={StyleFooter.text}>© 2023 All rights reserved.</p>
             </div>
         </div>
     );
