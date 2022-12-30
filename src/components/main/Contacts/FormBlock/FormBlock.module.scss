@@ -67,7 +67,6 @@
   .formBlockButton {
     display: inline-block;
     width: 100%;
-    transition: all 0.3s;
     font-size: 20px;
     color: #fff;
     background-color: #4e4e4e;
@@ -78,9 +77,11 @@
     font-weight: 700;
     line-height: 1.5em;
     cursor: pointer;
+    transition: all 0.3s ease;
 
     &:hover {
-      background-color: #464242;
+      background-color: #fff;
+      color: #666;
     }
   }
 }

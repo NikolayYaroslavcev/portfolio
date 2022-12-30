@@ -26,6 +26,13 @@
     a {
       text-decoration: none;
       cursor: pointer;
+      transition: all .5s ease-in;
+
+      &:hover {
+        text-decoration: underline;
+        transform: scale(1.05);
+      }
+
       .active {
 
       }

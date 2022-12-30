@@ -47,14 +47,3 @@ export const Nav = () => {
         </nav>
     );
 };
-
-
-// <Link activeClass ={StyleNav.active}
-//     {/*<li className={StyleNav.item}><a className={StyleNav.link}*/}
-//     {/*                                 href="#home">Home</a></li>*/}
-//     {/*<li className={StyleNav.item}><a className={StyleNav.link}*/}
-//     {/*                                 href="#skill">Skills</a></li>*/}
-//     {/*<li className={StyleNav.item}><a className={StyleNav.link}*/}
-//     {/*                                 href="#works">Works</a></li>*/}
-//     {/*<li className={StyleNav.item}><a className={StyleNav.link}*/}
-//     {/*                                 href="#contact">Contact</a></li>*/}
