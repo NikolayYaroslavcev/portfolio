@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://NikolayYaroslavcev.github.io/portfolio",
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
@@ -20,6 +21,7 @@
     "@types/react-scroll": "^1.8.5",
     "@types/react-slick": "^0.23.10",
     "@types/styled-components": "^5.1.26",
+    "emailjs": "^4.0.1",
     "gh-pages": "^4.0.0",
     "hamburger-react": "^2.5.0",
     "node-sass": "^7.0.3",
@@ -30,6 +32,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.8",
     "react-slick": "^0.29.0",
+    "react-toastify": "^9.1.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.5",
     "typescript": "^4.4.2",

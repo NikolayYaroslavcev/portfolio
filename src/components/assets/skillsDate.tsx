@@ -2,7 +2,7 @@ export const skillsDate = [
     {
         id: 1,
         title: "React",
-        description: 'Description React'
+        description: 'Description React',
     },
     {
         id: 2,

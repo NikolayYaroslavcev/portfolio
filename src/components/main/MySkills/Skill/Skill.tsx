@@ -22,14 +22,6 @@ export const Skill = (props:PropsType) => {
             </div>
             <p className={SSkill.title}>{title}</p>
             <div className={SSkill.bar}>
-                <div className={SSkill.ability}>
-                    <p className={SSkill.name}>React</p>
-                    <p className={SSkill.procent}>90%</p>
-                </div>
-                <div className={SSkill.blackFill}>
-                    <div className={SSkill.whiteFill}></div>
-                </div>
-
             </div>
             <p className={SSkill.text}>{description}</p>
         </div>

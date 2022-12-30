@@ -3,6 +3,10 @@ import sAbout from './About.module.scss';
 import ava from '../img/ava.jpg';
 import {faArrowDown} from '@fortawesome/free-solid-svg-icons/faArrowDown';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+// @ts-ignore
+import NikolayYaroslavcev from '../../../components/file/NikolayYaroslavcev.pdf';
+import {Link, animateScroll as scroll} from 'react-scroll';
+
 
 export const About = () => {
     return (
@@ -29,14 +33,23 @@ export const About = () => {
                             with tutor in English.
                             Open to your suggestions
                         </p>
-                        <div className={sAbout.btnLink}>
-                            <a href="../../../components/file/portfolio.pdf" download>Download
-                            CV <FontAwesomeIcon className={sAbout.icon} icon={faArrowDown}/>
+                        <a href={NikolayYaroslavcev} download className={sAbout.cta}>
+                            <span>Download CV</span>
+                            <svg width="15px" height="15px" viewBox="0 0 15 15">
+                                <FontAwesomeIcon className={sAbout.icon} icon={faArrowDown}/>
+                            </svg>
                         </a>
-                            <a href="../../../components/file/react-table-demo-main.zip" download>Download
-                                CV <FontAwesomeIcon className={sAbout.icon} icon={faArrowDown}/>
-                            </a>
-                        </div>
+
+
+                        <a href="#skill" className={sAbout.scrollMouse}></a>
+                        {/*<Link*/}
+                        {/*    activeClass={sAbout.scrollMouse}*/}
+                        {/*    to="skill"*/}
+                        {/*    spy={true}*/}
+                        {/*    smooth={true}*/}
+                        {/*    offset={1}*/}
+                        {/*    duration={500}>*/}
+                        {/*</Link>*/}
                     </div>
                 </div>
             </div>

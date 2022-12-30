@@ -1,13 +1,22 @@
 .work {
   display: flex;
   flex-direction: column;
-  width: 610px;
+  max-width: 610px;
   text-align: center;
   gap: 20px;
   flex: 1 1 25%;
-  height: 500px;
-  padding: 0 10px;
-  background-color: #868a9b;
+  max-height: 500px;
+  padding: 0 10px 30px 10px;
+  background-color: #212228;
+  transition: all .5s ease-in;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
 
 
   .preview {
