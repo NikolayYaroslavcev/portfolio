@@ -6,17 +6,14 @@
   gap: 20px;
   flex: 1 1 25%;
   max-height: 500px;
-  padding: 0 10px 30px 10px;
+  padding: 30px 10px;
   background-color: #212228;
   transition: all .5s ease-in;
   border-radius: 20px;
+  margin: 0 7px 0 7px;
 
   &:hover {
     transform: scale(1.05);
-  }
-
-  &:not(:last-child) {
-    margin-right: 15px;
   }
 
 
