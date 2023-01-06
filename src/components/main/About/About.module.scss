@@ -12,20 +12,6 @@ $primary: #FFAB9D;
       min-height: 100vh;
       column-gap: 70px;
       line-height: 1.3em;
-      @media (max-width: 1134.98px) {
-        column-gap: 40px;
-      }
-      @media (max-width: 767.98px) {
-        flex-wrap: wrap;
-        padding-top: 80px;
-        padding-right: 10px;
-        justify-content: center;
-        text-align: center;
-        display: block;
-      }
-      @media (max-width: 425.98px) {
-        row-gap: 0;
-      }
 
       .imageIbg {
         position: relative;
@@ -66,17 +52,10 @@ $primary: #FFAB9D;
           width: 100%;
           height: 100%;
           border-radius: 50%;
-          //box-shadow: 12px 12px 2px 1px #fff;
           top: 0;
           left: 0;
           object-fit: cover;
           max-width: 640px;
-          @media (max-width: 764.98px) {
-            height: 120%;
-          }
-          @media (max-width: 320.98px) {
-            height: 140%;
-          }
         }
       }
 
@@ -102,19 +81,12 @@ $primary: #FFAB9D;
           font-size: 14px;
           letter-spacing: 2px;
           margin-bottom: 20px;
-          @media (max-width: 767.98px) {
-            margin-bottom: 0
-          }
-
         }
 
         .about {
           line-height: 1.3em;
           font-weight: 400;
           margin-bottom: 50px;
-          @media (max-width: 767.98px) {
-            margin-bottom: 20px
-          }
         }
 
         .cta {
@@ -176,6 +148,7 @@ $primary: #FFAB9D;
             transform: translateX(0);
             color: #18191d;
           }
+
           &:active {
             transform: scale(0.96);
           }
@@ -190,7 +163,6 @@ $primary: #FFAB9D;
           border: 2px solid #fff;
           border-radius: 50px;
           bottom: 60px;
-          left: 50%;
           -webkit-transform: translateX(-50%);
           -moz-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
@@ -244,4 +216,157 @@ $primary: #FFAB9D;
 
     }
   }
+}
+
+
+////////////////////MEDIA//////////////////////////////////
+
+
+@media (max-width: 1199.98px) {
+  .about {
+    .__container {
+      .aboutAs {
+        .imageIbg {
+          margin-top: 0;
+        }
+
+        .content {
+
+          .title {
+            font-size: 39px;
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 768.98px) {
+  .about {
+    .__container {
+      .aboutAs {
+        flex-wrap: wrap;
+        column-gap: 0px;
+
+        .imageIbg {
+          aspect-ratio: 10/8;
+
+          .imageRadius {
+            left: 50%;
+          }
+        }
+
+        .content {
+          .title {
+            font-size: 50px;
+          }
+
+          .about {
+            margin-bottom: 28px;
+
+          }
+
+          .scrollMouse {
+            bottom: 15px;
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@media (max-width: 425.98px) {
+  .about {
+    .__container {
+      .aboutAs {
+        flex-wrap: wrap;
+
+        .imageIbg {
+          aspect-ratio: 7/10;
+
+          .imageRadius {
+            left: -10%;
+          }
+        }
+
+        .content {
+          text-align: center;
+
+          .title {
+            font-size: 27px;
+          }
+
+          .cta {
+            svg {
+              right: -80px;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 375.98px) {
+  .about {
+    .__container {
+      .aboutAs {
+        flex-wrap: wrap;
+
+        .imageIbg {
+          aspect-ratio: 7/8;
+
+          .imageRadius {
+            width: 350px;
+            height: 250px;
+          }
+        }
+
+        .content {
+          text-align: center;
+
+          .title {
+            font-size: 24px;
+          }
+
+          .cta {
+            svg {
+              right: -80px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 320.98px) {
+  .about {
+    .__container {
+      .aboutAs {
+        .imageIbg {
+
+          .imageRadius {
+            left: -7%;
+            width: 315px;
+          }
+        }
+
+        .content {
+          .title {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+
 }

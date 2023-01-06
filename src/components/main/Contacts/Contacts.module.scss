@@ -1,40 +1,124 @@
 .contacts {
-    padding: 30px 0;
-    @media (max-width: 320.98px) {
-        padding: 0 0 30px 0;
+  padding: 40px 0;
+
+  .__container {
+    .subTitle {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 12px;
+      color: #868a9b;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
 
-    .__container {
-        .subTitle {
-            display: inline-block;
-            font-weight: 700;
-            font-size: 12px;
-            color: #868a9b;
-            margin-bottom: 20px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-        }
-        .title {
-            font-size: 60px;
-            line-height: 1.2em;
-            font-weight: 700;
-            margin-bottom: 55px;
-            @media (max-width: 682.98px) {
-                text-align: center;
-                font-size: 60px;
-            }
-            @media (max-width: 362.98px) {
-                font-size: 52px;
-            }
-            @media (max-width: 320.98px) {
-                font-size: 42px;
-                margin-bottom: 30px;
-            }
-        }
-        .contactBlock {
-            display: flex;
-            justify-content: center;
-        }
+    .title {
+      font-size: 60px;
+      line-height: 1.2em;
+      font-weight: 700;
+      margin-bottom: 55px;
     }
+
+    .contactBlock {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+}
+
+////////////////////MEDIA//////////////////////////////////
+@media (max-width: 1199.98px) {
+  .contacts {
+    .__container {
+      .subTitle {
+      }
+
+      .title {
+        font-size: 39px;
+      }
+
+      .contactBlock {
+
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 768.98px) {
+  .contacts {
+    .__container {
+      .subTitle {
+      }
+
+      .title {
+        font-size: 47px;
+      }
+
+      .contactBlock {
+
+      }
+    }
+
+  }
+}
+
+@media (max-width: 425.98px) {
+  .contacts {
+    text-align: center;
+
+    .__container {
+      .subTitle {
+      }
+
+      .title {
+        font-size: 27px;
+        margin-bottom: 20px;
+      }
+
+      .contactBlock {
+
+      }
+    }
+
+  }
+}
+
+@media (max-width: 375.98px) {
+  .contacts {
+    .__container {
+      .subTitle {
+      }
+
+      .title {
+        font-size: 27px;
+      }
+
+      .contactBlock {
+
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 320.98px) {
+  .contacts {
+    .__container {
+      .subTitle {
+      }
+
+      .title {
+        font-size: 25px;
+      }
+
+      .contactBlock {
+      }
+    }
+
+  }
 
 }

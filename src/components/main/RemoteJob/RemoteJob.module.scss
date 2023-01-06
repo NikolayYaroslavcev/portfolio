@@ -11,12 +11,9 @@ $button-color: #fff;
   margin: auto;
 }
 
-
 .remoteJob {
   padding: 30px 0;
-
   .__container {
-
     .title {
       margin-bottom: 40px;
       display: inline-block;
@@ -26,13 +23,9 @@ $button-color: #fff;
       text-transform: uppercase;
       letter-spacing: 2px;
       align-items: start;
-      @media (max-width: 320.98px) {
-        margin-bottom: 30px;
-      }
     }
     .btn {
       position: relative;
-
       a {
         @include center;
         cursor: pointer;
@@ -73,12 +66,46 @@ $button-color: #fff;
         }
       }
 
-
     }
-
-
   }
 
 }
 
 
+
+////////////////////MEDIA//////////////////////////////////
+
+@media (max-width: 1199px) {
+  .remoteJob {
+    .__container {
+      .title {
+      }
+      .btn {
+
+        a {
+          top: 15px;
+          &::before {
+          }
+
+          &:hover {
+            &::before {
+            }
+          }
+        }
+
+      }
+    }
+
+  }
+}
+
+@media (max-width: 425.98px) {
+  .remoteJob {
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 320.98px) {
+  margin-bottom: 30px;
+}

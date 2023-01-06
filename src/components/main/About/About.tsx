@@ -39,8 +39,6 @@ export const About = () => {
                                 <FontAwesomeIcon className={sAbout.icon} icon={faArrowDown}/>
                             </svg>
                         </a>
-
-
                         <a href="#skill" className={sAbout.scrollMouse}></a>
                         {/*<Link*/}
                         {/*    activeClass={sAbout.scrollMouse}*/}

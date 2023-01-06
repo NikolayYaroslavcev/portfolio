@@ -3,44 +3,163 @@
 
   .__container {
 
-  }
-
-  .our {
-    display: inline-block;
-    font-weight: 700;
-    font-size: 12px;
-    color: #868a9b;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-
-  .items {
-    column-gap: 45px;
-    align-items: center;
-    margin-bottom: 90px;
-
-    .title {
-      font-size: 60px;
-      line-height: 1.2em;
+    .our {
+      display: inline-block;
       font-weight: 700;
+      font-size: 12px;
+      color: #868a9b;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
     }
 
-    .text {
-      font-size: 16px;
-      line-height: 1.75em;
-      font-weight: 400;
+    .items {
+      column-gap: 45px;
+      align-items: center;
+      margin-bottom: 90px;
+
+      .title {
+        font-size: 60px;
+        line-height: 1.2em;
+        font-weight: 700;
+      }
+
+      .text {
+        font-size: 16px;
+        line-height: 1.75em;
+        font-weight: 400;
+      }
+    }
+
+    .works {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+      flex-wrap: wrap;
+      cursor: pointer;
     }
   }
 
-  .works {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    flex-wrap: wrap;
-    cursor: pointer;
+}
+
+
+////////////////////MEDIA//////////////////////////////////
+
+
+@media (max-width: 1199.98px) {
+  .portfolio {
+    .__container {
+
+      .items {
+
+
+        .title {
+          font-size: 39px;
+        }
+
+        .text {
+
+
+        }
+      }
+
+    }
+
   }
 
+}
+
+@media (max-width: 768.98px) {
+  .portfolio {
+    .__container {
+
+
+      .items {
+
+
+        .title {
+          font-size: 47px;
+        }
+
+        .text {
+
+
+        }
+      }
+
+
+    }
+
+  }
+}
+
+@media (max-width: 425.98px) {
+  .portfolio {
+    text-align: center;
+
+    .__container {
+
+
+      .items {
+        margin-bottom: 20px;
+
+
+        .title {
+          font-size: 27px;
+        }
+
+        .text {
+
+
+        }
+      }
+
+
+    }
+
+  }
+}
+
+@media (max-width: 375.98px) {
+  .portfolio {
+    .__container {
+
+      .items {
+        .title {
+          font-size: 27px;
+        }
+
+        .text {
+
+        }
+      }
+
+      .works {
+
+      }
+    }
+
+  }
+
+}
+
+@media (max-width: 320.98px) {
+  .portfolio {
+    .__container {
+
+      .items {
+
+        .title {
+          font-size: 25px;
+        }
+
+        .text {
+
+        }
+      }
+    }
+
+  }
 
 }
 

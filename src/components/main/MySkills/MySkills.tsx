@@ -9,6 +9,7 @@ import {funSkill} from '../../assets/funSkill';
 
 
 export const MySkills = () => {
+
     return (
         <div id="skill" className={sMySkills.skills}>
             <div className={sMySkills.__container}>
