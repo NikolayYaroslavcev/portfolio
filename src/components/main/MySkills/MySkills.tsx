@@ -4,8 +4,9 @@ import {Skill} from './Skill/Skill';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.scss';
 import 'slick-carousel/slick/slick-theme.scss';
-import {skillsDate} from '../../assets/skillsDate';
+
 import {funSkill} from '../../assets/funSkill';
+import {SkillData} from './Skill/SkillData';
 
 
 export const MySkills = () => {
@@ -19,8 +20,8 @@ export const MySkills = () => {
                 <p className={sMySkills.text}>I FRONT-END DEVELOPER</p>
                 <div className={sMySkills.skill}>
                     <Slider {...funSkill}>
-                        {skillsDate.map((s) => {
-                            return <Skill key={s.id} id={s.id} title={s.title} description={s.description}/>
+                        {SkillData.map((s) => {
+                            return <Skill key={s.id} id={s.id} img={s.img} title={s.title} description={s.about}/>
                         })}
                     </Slider>
                 </div>

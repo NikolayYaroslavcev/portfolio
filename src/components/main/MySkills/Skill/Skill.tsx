@@ -4,25 +4,23 @@ import SSkill from './SSkill.module.scss'
 // import 'slick-carousel/slick/slick-theme.css';
 
 
-
 type PropsType = {
-    id:number
+    id: number
+    img: string,
     title: string,
     description: string
 }
 
-export const Skill = (props:PropsType) => {
-    const {title,description}= props
+export const Skill = (props: PropsType) => {
+    const {img, title, description} = props
     return (
         <div className={SSkill.card}>
             <div className={SSkill.image}>
                 <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
-                    alt="react"/>
+                    src={img}
+                    alt={title}/>
             </div>
             <p className={SSkill.title}>{title}</p>
-            <div className={SSkill.bar}>
-            </div>
             <p className={SSkill.text}>{description}</p>
         </div>
     );

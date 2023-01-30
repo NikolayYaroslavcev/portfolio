@@ -5,7 +5,6 @@ import {faArrowDown} from '@fortawesome/free-solid-svg-icons/faArrowDown';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // @ts-ignore
 import NikolayYaroslavcev from '../../../components/file/NikolayYaroslavcev.pdf';
-import {Link, animateScroll as scroll} from 'react-scroll';
 
 
 export const About = () => {
@@ -40,14 +39,6 @@ export const About = () => {
                             </svg>
                         </a>
                         <a href="#skill" className={sAbout.scrollMouse}></a>
-                        {/*<Link*/}
-                        {/*    activeClass={sAbout.scrollMouse}*/}
-                        {/*    to="skill"*/}
-                        {/*    spy={true}*/}
-                        {/*    smooth={true}*/}
-                        {/*    offset={1}*/}
-                        {/*    duration={500}>*/}
-                        {/*</Link>*/}
                     </div>
                 </div>
             </div>
