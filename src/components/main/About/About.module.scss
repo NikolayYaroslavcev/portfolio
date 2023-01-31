@@ -80,7 +80,6 @@ $primary: #FFAB9D;
           font-weight: 700;
           font-size: 14px;
           letter-spacing: 2px;
-          margin-bottom: 20px;
         }
 
         .about {
@@ -157,12 +156,12 @@ $primary: #FFAB9D;
         .scrollMouse {
           position: absolute;
           left: 50%;
+          top: 88%;
           display: block;
           width: 30px;
           height: 50px;
           border: 2px solid #fff;
           border-radius: 50px;
-          bottom: 60px;
           -webkit-transform: translateX(-50%);
           -moz-transform: translateX(-50%);
           -ms-transform: translateX(-50%);
