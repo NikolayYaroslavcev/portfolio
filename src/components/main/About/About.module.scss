@@ -318,6 +318,7 @@ $primary: #FFAB9D;
     .__container {
       .aboutAs {
         flex-wrap: wrap;
+        align-items: start;
 
         .imageIbg {
           aspect-ratio: 7/8;
@@ -360,18 +361,24 @@ $primary: #FFAB9D;
 
           .imageRadius {
             left: -11%;
-            top: -20%;
+            top: 36%;
             width: 315px;
           }
         }
 
         .content {
           .title {
+            padding-top:55px;
             font-size: 22px;
           }
+          .scrollMouse{
+            top: 83%;
+          }
         }
+
       }
     }
+
   }
 
 }
