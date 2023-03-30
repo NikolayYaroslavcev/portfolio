@@ -1,6 +1,6 @@
 import React from 'react';
 import sAbout from './About.module.scss';
-import ava from '../img/ava.jpg';
+import ava from '../../assets/img/ava.jpg';
 import {faArrowDown} from '@fortawesome/free-solid-svg-icons/faArrowDown';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 // @ts-ignore

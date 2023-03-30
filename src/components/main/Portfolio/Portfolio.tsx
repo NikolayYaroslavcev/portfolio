@@ -4,7 +4,7 @@ import {MyWorks} from './MyWorks/MyWorks';
 import {myWorksDate} from '../../assets/myWorksDate';
 import {funSkill} from '../../assets/funSkill';
 import Slider from 'react-slick';
-import sMySkills from '../MySkills/MySkills.module.scss';
+
 
 
 export const Portfolio = () => {
@@ -22,7 +22,7 @@ export const Portfolio = () => {
                     <Slider {...funSkill}>
                         {myWorksDate.map((m) => {
                             return (
-                                <MyWorks key={m.id} title={m.title} description={m.description}/>
+                                <MyWorks key={m.id} title={m.title} description={m.description} link={m.link} git={m.git} img={m.img}/>
                             )
                         })}
                     </Slider>

@@ -1,26 +1,23 @@
-import React from 'react';
+import React, {FC} from 'react';
 import sMyWorks from './SMyWorks.module.scss'
-
 
 
 type PropsType = {
     title: string,
-    description: string
+    description: string,
+    link: string,
+    git:string,
+    img: string,
+
 }
 
-export const MyWorks = (props:PropsType) => {
-    const {title,description} = props
+export const MyWorks: FC<PropsType> = ({title, description, link,git, img}) => {
     return (
         <div className={sMyWorks.work}>
-            <div className={sMyWorks.preview}>
-                <div className={sMyWorks.image}>
-                    <a href="src/components/main/work/Work#">
-                        <img
-                            src="https://st4.depositphotos.com/31343406/39296/v/450/depositphotos_392966378-stock-illustration-concept-of-to-do-list.jpg"
-                            alt="image"/>
-                    </a>
-                    <a href="src/components/main/work/Work#" className={sMyWorks.link}>Смотреть</a>
-                </div>
+            <img className={sMyWorks.imag} src={img} alt=""/>
+            <div className={sMyWorks.workBlock}>
+                <a href={link} className={sMyWorks.link} target="_blank">Смотреть</a>
+                <a href={git} className={sMyWorks.link} target="_blank">GitHub</a>
             </div>
             <div className={sMyWorks.tittle}>{title}</div>
             <div className={sMyWorks.text}> {description}
