@@ -4,7 +4,6 @@ import {Skill} from './Skill/Skill';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.scss';
 import 'slick-carousel/slick/slick-theme.scss';
-
 import {funSkill} from '../../assets/funSkill';
 import {SkillData} from './Skill/SkillData';
 
