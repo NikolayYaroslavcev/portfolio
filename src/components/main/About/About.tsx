@@ -16,7 +16,7 @@ const textAnimation = {
     visible: custom => ({
         y: 0,
         opacity: 1,
-        transition: {delay: custom * 0.4},
+        transition: {delay: custom * 0.4,one: true },
     }),
 }
 

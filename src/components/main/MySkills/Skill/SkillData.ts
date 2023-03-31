@@ -11,42 +11,42 @@ export const SkillData = [
         id: 1,
         img: react,
         title: 'React',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
     {
         id: 2,
         img: redux,
         title: 'Redux',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
     {
         id: 3,
         img: thank,
         title: 'Redux-thank',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
     {
         id: 4,
         img: typeScript,
         title: 'TypeScript',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
     {
         id: 5,
         img: javaScript,
         title: 'JavaScript',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
     {
         id: 6,
         img: html,
         title: 'Html',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
     {
         id: 7,
         img: scss,
         title: 'Scss',
-        about: 'Использовал эту библиотеку там то там то '
+        about: 'Использовал'
     },
 ]
