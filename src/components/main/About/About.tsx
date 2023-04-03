@@ -16,7 +16,7 @@ const textAnimation = {
     visible: custom => ({
         y: 0,
         opacity: 1,
-        transition: {delay: custom * 0.4,one: true },
+        transition: {delay: custom * 0.3,one: true },
     }),
 }
 
@@ -26,6 +26,7 @@ export const About = () => {
         <motion.section
             initial='hidden'
             whileInView='visible'
+            viewport={{amount:0.3, once:true}}
             id="home" className={sAbout.about}>
             <div className={sAbout.__container}>
                 <div className={sAbout.aboutAs}>

@@ -1,19 +1,28 @@
 import React from 'react';
 import sContacts from './Contacts.module.scss';
 import {FormBlock} from './FormBlock/FormBlock';
+import {motion} from 'framer-motion'
+import {textAnimation} from "../MySkills/MySkills";
+
+
+
 
 
 export const Contacts = () => {
     return (
-        <div id='contact' className={sContacts.contacts}>
+        <motion.section
+            initial='hidden'
+            whileInView='visible'
+            viewport={{amount:0.3, once:true}}
+            id='contact' className={sContacts.contacts}>
             <div className={sContacts.__container}>
-                <p className={sContacts.subTitle}>GET IN TOUCH</p>
-                <h2 className={sContacts.title}>CONTACT DETAILS</h2>
-                <div className={sContacts.contactBlock}>
+                <motion.p custom={1} variants={textAnimation} className={sContacts.subTitle}>GET IN TOUCH</motion.p>
+                <motion.h2 custom={2} variants={textAnimation} className={sContacts.title}>CONTACT DETAILS</motion.h2>
+                <motion.div custom={3} variants={textAnimation} className={sContacts.contactBlock}>
                     <FormBlock/>
-                </div>
+                </motion.div>
             </div>
-        </div>
+        </motion.section>
     );
 };
 

@@ -4,21 +4,24 @@ import {MyWorks} from './MyWorks/MyWorks';
 import {myWorksDate} from '../../assets/myWorksDate';
 import {funSkill} from '../../assets/funSkill';
 import Slider from 'react-slick';
+import {motion} from 'framer-motion'
+import {textAnimation} from "../MySkills/MySkills";
 
 
 
 export const Portfolio = () => {
-
     return (
-        <div id="works" className={sPortfolio.portfolio}>
+        <motion.section
+            initial='hidden'
+            whileInView='visible'
+            viewport={{amount:0.3, once:true}}
+            id="works" className={sPortfolio.portfolio}>
             <div className={sPortfolio.__container}>
-                <p className={sPortfolio.our}>OUR WORKS</p>
+                <motion.p custom={1}  variants={textAnimation} className={sPortfolio.our}>OUR WORKS</motion.p>
                 <div className={sPortfolio.items}>
-                    <h2 className={sPortfolio.title}>PORTFOLIO </h2>
-                    <p className={sPortfolio.text}>TEXT</p>
+                    <motion.h2 custom={2} variants={textAnimation} className={sPortfolio.title}>PORTFOLIO </motion.h2>
                 </div>
-
-                <div className={sPortfolio.works}>
+                <motion.div custom={3} variants={textAnimation} className={sPortfolio.works}>
                     <Slider {...funSkill}>
                         {myWorksDate.map((m) => {
                             return (
@@ -26,9 +29,9 @@ export const Portfolio = () => {
                             )
                         })}
                     </Slider>
-                </div>
+                </motion.div>
             </div>
-        </div>
+        </motion.section>
     );
 };
 

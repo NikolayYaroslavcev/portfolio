@@ -6,27 +6,45 @@ import 'slick-carousel/slick/slick.scss';
 import 'slick-carousel/slick/slick-theme.scss';
 import {funSkill} from '../../assets/funSkill';
 import {SkillData} from './Skill/SkillData';
+import {motion} from 'framer-motion'
+
+export const textAnimation = {
+    hidden: {
+        x: -100,
+        opacity: 0,
+    },
+    visible: custom => ({
+        x: 0,
+        opacity: 1,
+        transition: {delay: custom * 0.3,one: true },
+    }),
+}
+
+
 
 
 export const MySkills = () => {
 
     return (
-        <div id="skill" className={sMySkills.skills}>
-            <div className={sMySkills.__container}>
-                <h2 className={sMySkills.title}>
+        <motion.section
+            initial='hidden'
+            whileInView='visible'
+            viewport={{amount:0.3, once:true}}
+            id="skill" className={sMySkills.skills}>
+            <div  className={sMySkills.__container}>
+                <motion.h2 custom={1}  variants={textAnimation}  className={sMySkills.title}>
                     MY SKILLS
-                </h2>
-                <p className={sMySkills.text}>I FRONT-END DEVELOPER</p>
-                <div className={sMySkills.skill}>
+                </motion.h2>
+                <motion.p custom={2}  variants={textAnimation}  className={sMySkills.text}>I FRONT-END DEVELOPER</motion.p>
+                <motion.div custom={3}  variants={textAnimation} className={sMySkills.skill}>
                     <Slider {...funSkill}>
                         {SkillData.map((s) => {
                             return <Skill key={s.id} id={s.id} img={s.img} title={s.title} description={s.about}/>
                         })}
                     </Slider>
-                </div>
-
+                </motion.div>
             </div>
-        </div>
+        </motion.section>
     );
 };
 
