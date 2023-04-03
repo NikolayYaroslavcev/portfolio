@@ -39,7 +39,7 @@ export const MySkills = () => {
                 <motion.div custom={3}  variants={textAnimation} className={sMySkills.skill}>
                     <Slider {...funSkill}>
                         {SkillData.map((s) => {
-                            return <Skill key={s.id} id={s.id} img={s.img} title={s.title} description={s.about}/>
+                            return <Skill key={s.id} id={s.id} img={s.img} title={s.title}/>
                         })}
                     </Slider>
                 </motion.div>

@@ -8,11 +8,10 @@ type PropsType = {
     id: number
     img: string,
     title: string,
-    description: string
 }
 
 export const Skill = (props: PropsType) => {
-    const {img, title, description} = props
+    const {img, title} = props
     return (
         <div className={SSkill.card}>
             <div className={SSkill.image}>
@@ -21,7 +20,6 @@ export const Skill = (props: PropsType) => {
                     alt={title}/>
             </div>
             <p className={SSkill.title}>{title}</p>
-            <p className={SSkill.text}>{description}</p>
         </div>
     );
 };
