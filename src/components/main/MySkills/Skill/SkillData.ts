@@ -5,6 +5,7 @@ import typeScript from '../../../assets/icons/iconsSkill/typescript.svg'
 import javaScript from '../../../assets/icons/iconsSkill/javascript.svg'
 import html from '../../../assets/icons/iconsSkill/html.svg'
 import scss from '../../../assets/icons/iconsSkill/scss.svg'
+import pug from '../../../assets/icons/iconsSkill/pug.svg'
 
 export const SkillData = [
     {
@@ -39,6 +40,11 @@ export const SkillData = [
     },
     {
         id: 7,
+        img: pug,
+        title: 'Pug',
+    },
+    {
+        id: 8,
         img: scss,
         title: 'Scss',
     },
