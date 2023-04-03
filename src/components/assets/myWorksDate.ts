@@ -10,11 +10,11 @@ import canby from '../assets/img/candy.png'
 import teleport from '../assets/img/teleport.png'
 import ui from '../assets/img/ui.png'
 import converter from '../assets/img/converter.png'
+import god from '../assets/img/got.png'
 
 
 export const myWorksDate = [
     {
-        id: 1,
         title: "Toothpick",
         description: 'Online Store',
         link: "https://nikolayyaroslavcev.github.io/zubcist/",
@@ -22,7 +22,6 @@ export const myWorksDate = [
         img: zub,
     },
     {
-        id: 2,
         title: "Belwooddoors ",
         description: 'Catalog page belwooddoors.by',
         link: "https://nikolayyaroslavcev.github.io/belwooddoorsDev/main.html",
@@ -30,7 +29,13 @@ export const myWorksDate = [
         img: decor,
     },
     {
-        id: 3,
+        title: "God of War: Ragnarök",
+        description: 'Game release page',
+        link: "https://nikolayyaroslavcev.github.io/order/",
+        git: 'https://github.com/NikolayYaroslavcev/ragnarok',
+        img: god,
+    },
+    {
         title: "Preparing",
         description: 'Site for online preparation for the GSE',
         link: "https://nikolayyaroslavcev.github.io/order/",
@@ -38,7 +43,6 @@ export const myWorksDate = [
         img: course,
     },
     {
-        id: 4,
         title: "Teleport",
         description: 'Website page teleport.by',
         link: "https://nikolayyaroslavcev.github.io/teleportbuild/",
@@ -46,7 +50,6 @@ export const myWorksDate = [
         img: teleport,
     },
     {
-        id: 5,
         title: "Converter",
         description: 'Сurrency converter',
         link: "https://nikolayyaroslavcev.github.io/myConverter/",
@@ -54,7 +57,6 @@ export const myWorksDate = [
         img: converter,
     },
     {
-        id: 6,
         title: "MNTN",
         description: 'Travel Landing',
         link: "https://nikolayyaroslavcev.github.io/nmtn/",
@@ -62,7 +64,6 @@ export const myWorksDate = [
         img: mntn,
     },
     {
-        id: 7,
         title: "Decorative world",
         description: 'Residential renovation site',
         link: "https://nikolayyaroslavcev.github.io/decor/",
@@ -70,7 +71,6 @@ export const myWorksDate = [
         img: world,
     },
     {
-        id: 8,
         title: "Auto Shop",
         description: 'Auto exchange',
         link: "https://nikolayyaroslavcev.github.io/avto/",
@@ -78,7 +78,6 @@ export const myWorksDate = [
         img: avto,
     },
     {
-        id: 9,
         title: "TravelX",
         description: 'Travel Landing',
         link: "https://nikolayyaroslavcev.github.io/Trevel/",
@@ -86,7 +85,6 @@ export const myWorksDate = [
         img: travel,
     },
     {
-        id: 10,
         title: "Calculator",
         description: 'JavaScript project',
         link: "https://github.com/NikolayYaroslavcev/calculator",
@@ -94,7 +92,6 @@ export const myWorksDate = [
         img: calculator,
     },
     {
-        id: 11,
         title: "Revica",
         description: 'A site to buy a brand',
         link: "https://nikolayyaroslavcev.github.io/canby/",
@@ -102,7 +99,6 @@ export const myWorksDate = [
         img: canby,
     },
     {
-        id: 12,
         title: "Ui-kit",
         description: 'Ui-kit for projects',
         link: "https://nikolayyaroslavcev.github.io/ui-kit/",
