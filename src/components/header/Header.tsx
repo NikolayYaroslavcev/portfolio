@@ -11,7 +11,7 @@ export const Header = () => {
         <div className={StyleHeader.header}>
             <div className={StyleHeader.__container}>
                 {isOpen &&
-                    <Nav/>
+                    <Nav toggled={isOpen} toggle={setOpen}/>
                 }
                 <Hamburger color={isOpen ? 'black' : 'white'} toggled={isOpen} toggle={setOpen}/>
             </div>

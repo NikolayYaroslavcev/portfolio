@@ -1,9 +1,14 @@
-import React from 'react';
+import React, {FC} from 'react';
 import StyleNav from './StyleNav.module.scss'
 import {Link, animateScroll as scroll} from 'react-scroll';
 
 
-export const Nav = () => {
+type PropsType = {
+    toggle: (value: boolean) => void;
+    toggled: boolean
+}
+
+export const Nav: FC<PropsType> = ({toggle, toggled}) => {
     return (
         <nav className={StyleNav.menu}>
             <ul className={StyleNav.list}>
@@ -13,7 +18,9 @@ export const Nav = () => {
                     spy={true}
                     smooth={true}
                     offset={1}
-                    duration={500}>
+                    duration={500}
+                    onClick={() => toggle(!toggled)}
+                >
                     Home
                 </Link>
                 <Link
@@ -22,7 +29,10 @@ export const Nav = () => {
                     spy={true}
                     smooth={true}
                     offset={1}
-                    duration={500}>
+                    duration={500}
+                    onClick={() => toggle(!toggled)}
+                >
+
                     Skill
                 </Link>
                 <Link
@@ -31,7 +41,9 @@ export const Nav = () => {
                     spy={true}
                     smooth={true}
                     offset={1}
-                    duration={500}>
+                    duration={500}
+                    onClick={() => toggle(!toggled)}
+                >
                     Works
                 </Link>
                 <Link
@@ -40,7 +52,9 @@ export const Nav = () => {
                     spy={true}
                     smooth={true}
                     offset={1}
-                    duration={500}>
+                    duration={500}
+                    onClick={() => toggle(!toggled)}
+                >
                     Contact
                 </Link>
             </ul>

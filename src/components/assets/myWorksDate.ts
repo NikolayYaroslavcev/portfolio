@@ -7,6 +7,9 @@ import avto from '../assets/img/avto.png'
 import travel from '../assets/img/travel.png'
 import calculator from '../assets/img/calculator.png'
 import canby from '../assets/img/candy.png'
+import teleport from '../assets/img/teleport.png'
+import ui from '../assets/img/ui.png'
+import converter from '../assets/img/converter.png'
 
 
 export const myWorksDate = [
@@ -36,6 +39,22 @@ export const myWorksDate = [
     },
     {
         id: 4,
+        title: "Teleport",
+        description: 'Project name 4 здесь',
+        link: "https://nikolayyaroslavcev.github.io/teleportbuild/",
+        git: 'https://github.com/NikolayYaroslavcev/Teleport',
+        img: teleport,
+    },
+    {
+        id: 5,
+        title: "Converter",
+        description: 'Сurrency converter',
+        link: "https://nikolayyaroslavcev.github.io/myConverter/",
+        git: 'https://github.com/NikolayYaroslavcev/myConverter',
+        img: converter,
+    },
+    {
+        id: 6,
         title: "MNTN",
         description: 'Лендинг для путешествий',
         link: "https://nikolayyaroslavcev.github.io/nmtn/",
@@ -43,7 +62,7 @@ export const myWorksDate = [
         img: mntn,
     },
     {
-        id: 5,
+        id: 7,
         title: "Mir decor",
         description: 'Сайт ремонта жилых помещений',
         link: "https://nikolayyaroslavcev.github.io/decor/",
@@ -51,7 +70,7 @@ export const myWorksDate = [
         img: world,
     },
     {
-        id: 5,
+        id: 8,
         title: "Auto Shop",
         description: 'Авто обмен',
         link: "https://nikolayyaroslavcev.github.io/avto/",
@@ -59,7 +78,7 @@ export const myWorksDate = [
         img: avto,
     },
     {
-        id: 6,
+        id: 9,
         title: "TravelX",
         description: 'Лендинг для путешествий',
         link: "https://nikolayyaroslavcev.github.io/Trevel/",
@@ -67,7 +86,7 @@ export const myWorksDate = [
         img: travel,
     },
     {
-        id: 7,
+        id: 10,
         title: "Project name 5",
         description: 'Project name 4 здесь',
         link: "https://github.com/NikolayYaroslavcev/calculator",
@@ -75,11 +94,20 @@ export const myWorksDate = [
         img: calculator,
     },
     {
-        id: 8,
+        id: 11,
         title: "Project name 5",
         description: 'Project name 4 здесь',
         link: "https://nikolayyaroslavcev.github.io/canby/",
         git: 'https://github.com/NikolayYaroslavcev/canby',
         img: canby,
     },
+    {
+        id: 12,
+        title: "Project name 5",
+        description: 'Project name 4 здесь',
+        link: "https://nikolayyaroslavcev.github.io/ui-kit/",
+        git: 'https://github.com/NikolayYaroslavcev/ui-kit',
+        img: ui,
+    },
+
 ]
