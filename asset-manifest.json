@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.73c3a722.css",
-    "main.js": "/portfolio/static/js/main.9211700b.js",
+    "main.js": "/portfolio/static/js/main.16774bde.js",
     "static/js/496.19847c0d.chunk.js": "/portfolio/static/js/496.19847c0d.chunk.js",
     "static/media/mntn.png": "/portfolio/static/media/mntn.dff04ea8bdae9bcda859.png",
     "static/media/world.png": "/portfolio/static/media/world.ae55b9ee8c41a0b44fe6.png",
@@ -17,6 +17,7 @@
     "static/media/calculator.png": "/portfolio/static/media/calculator.12c30c27d000d2486802.png",
     "static/media/NikolayYaroslavcev.pdf": "/portfolio/static/media/NikolayYaroslavcev.2c533d1020f84f71b2e3.pdf",
     "static/media/converter.png": "/portfolio/static/media/converter.7d1bf34a85d1b3c40e86.png",
+    "static/media/pug.svg": "/portfolio/static/media/pug.71c37ffcd8b184e7e47d04f75516329c.svg",
     "static/media/redux.svg": "/portfolio/static/media/redux.298b81f8828f8b1aa15cf5ffd700e15a.svg",
     "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/react.svg": "/portfolio/static/media/react.afeb382b80702ba3ea2e8a6ec6fd2f9b.svg",
@@ -31,11 +32,11 @@
     "static/media/arrowUp.svg": "/portfolio/static/media/arrowUp.cda3c0345fbc7ce6f1794d5962228dc3.svg",
     "static/media/html.svg": "/portfolio/static/media/html.79ad90dfc8dcde460e1886371a38c0c9.svg",
     "main.73c3a722.css.map": "/portfolio/static/css/main.73c3a722.css.map",
-    "main.9211700b.js.map": "/portfolio/static/js/main.9211700b.js.map",
+    "main.16774bde.js.map": "/portfolio/static/js/main.16774bde.js.map",
     "496.19847c0d.chunk.js.map": "/portfolio/static/js/496.19847c0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.73c3a722.css",
-    "static/js/main.9211700b.js"
+    "static/js/main.16774bde.js"
   ]
 }
