@@ -16,7 +16,7 @@ export const MyWorks: FC<PropsType> = ({title, description, link,git, img}) => {
         <div className={sMyWorks.work}>
             <img className={sMyWorks.imag} src={img} alt=""/>
             <div className={sMyWorks.workBlock}>
-                <a href={link} className={sMyWorks.link} target="_blank">Смотреть</a>
+                <a href={link} className={sMyWorks.link} target="_blank">Watch</a>
                 <a href={git} className={sMyWorks.link} target="_blank">GitHub</a>
             </div>
             <div className={sMyWorks.tittle}>{title}</div>
