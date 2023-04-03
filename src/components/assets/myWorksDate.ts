@@ -40,7 +40,7 @@ export const myWorksDate = [
     {
         id: 4,
         title: "Teleport",
-        description: 'website page teleport.by',
+        description: 'Website page teleport.by',
         link: "https://nikolayyaroslavcev.github.io/teleportbuild/",
         git: 'https://github.com/NikolayYaroslavcev/Teleport',
         img: teleport,
@@ -56,7 +56,7 @@ export const myWorksDate = [
     {
         id: 6,
         title: "MNTN",
-        description: 'Лендинг для путешествий',
+        description: 'Travel Landing',
         link: "https://nikolayyaroslavcev.github.io/nmtn/",
         git: 'https://github.com/NikolayYaroslavcev/nmtn',
         img: mntn,
