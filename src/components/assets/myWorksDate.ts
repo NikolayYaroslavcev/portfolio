@@ -31,7 +31,7 @@ export const myWorksDate = [
     },
     {
         id: 3,
-        title: "Preparing for the GSE",
+        title: "Preparing",
         description: 'Site for online preparation for the GSE',
         link: "https://nikolayyaroslavcev.github.io/order/",
         git: 'https://github.com/NikolayYaroslavcev/order',
