@@ -11,6 +11,7 @@ import teleport from '../assets/img/teleport.png'
 import ui from '../assets/img/ui.png'
 import converter from '../assets/img/converter.png'
 import scroll from '../assets/img/scroll.png'
+import potter from '../assets/img/potter.png'
 
 
 export const myWorksDate = [
@@ -41,6 +42,13 @@ export const myWorksDate = [
         link: "https://github.com/NikolayYaroslavcev/order",
         git: 'https://nikolayyaroslavcev.github.io/order/',
         img: course,
+    },
+    {
+        title: "Harry Potter",
+        description: 'harry potter at your party',
+        link: "https://nikolayyaroslavcev.github.io/potter/",
+        git: 'https://github.com/NikolayYaroslavcev/potter',
+        img: teleport,
     },
     {
         title: "Teleport",
