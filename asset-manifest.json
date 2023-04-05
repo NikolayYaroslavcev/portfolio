@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.317c5354.css",
-    "main.js": "/portfolio/static/js/main.e00fcf8b.js",
+    "main.js": "/portfolio/static/js/main.ff6ad3b7.js",
     "static/js/496.19847c0d.chunk.js": "/portfolio/static/js/496.19847c0d.chunk.js",
     "static/media/mntn.png": "/portfolio/static/media/mntn.dff04ea8bdae9bcda859.png",
     "static/media/world.png": "/portfolio/static/media/world.ae55b9ee8c41a0b44fe6.png",
@@ -10,6 +10,7 @@
     "static/media/candy.png": "/portfolio/static/media/candy.20097a6518e24f09af97.png",
     "static/media/course.png": "/portfolio/static/media/course.17fd37682343e724d872.png",
     "static/media/teleport.png": "/portfolio/static/media/teleport.d7ea10d88695d33d85ee.png",
+    "static/media/scroll.png": "/portfolio/static/media/scroll.aebf2b886ec5c2bcf15c.png",
     "static/media/avto.png": "/portfolio/static/media/avto.4205d75ebe1008a6d622.png",
     "static/media/zub.png": "/portfolio/static/media/zub.99ae52237bff46d3f41d.png",
     "static/media/ava.jpg": "/portfolio/static/media/ava.f67a86e9cd6721684fa9.jpg",
@@ -32,11 +33,11 @@
     "static/media/arrowUp.svg": "/portfolio/static/media/arrowUp.cda3c0345fbc7ce6f1794d5962228dc3.svg",
     "static/media/html.svg": "/portfolio/static/media/html.79ad90dfc8dcde460e1886371a38c0c9.svg",
     "main.317c5354.css.map": "/portfolio/static/css/main.317c5354.css.map",
-    "main.e00fcf8b.js.map": "/portfolio/static/js/main.e00fcf8b.js.map",
+    "main.ff6ad3b7.js.map": "/portfolio/static/js/main.ff6ad3b7.js.map",
     "496.19847c0d.chunk.js.map": "/portfolio/static/js/496.19847c0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.317c5354.css",
-    "static/js/main.e00fcf8b.js"
+    "static/js/main.ff6ad3b7.js"
   ]
 }
