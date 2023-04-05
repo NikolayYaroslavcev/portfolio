@@ -23,9 +23,9 @@ export const Portfolio = () => {
                 </div>
                 <motion.div custom={3} variants={textAnimation} className={sPortfolio.works}>
                     <Slider {...funSkill}>
-                        {myWorksDate.map((m) => {
+                        {myWorksDate.map((m,index) => {
                             return (
-                                <MyWorks key={m.id} title={m.title} description={m.description} link={m.link} git={m.git} img={m.img}/>
+                                <MyWorks key={index} title={m.title} description={m.description} link={m.link} git={m.git} img={m.img}/>
                             )
                         })}
                     </Slider>

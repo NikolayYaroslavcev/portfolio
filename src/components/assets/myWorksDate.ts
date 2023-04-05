@@ -10,7 +10,7 @@ import canby from '../assets/img/candy.png'
 import teleport from '../assets/img/teleport.png'
 import ui from '../assets/img/ui.png'
 import converter from '../assets/img/converter.png'
-import god from '../assets/img/got.png'
+import scroll from '../assets/img/scroll.png'
 
 
 export const myWorksDate = [
@@ -29,17 +29,17 @@ export const myWorksDate = [
         img: decor,
     },
     {
-        title: "God of War: Ragnarök",
-        description: 'Game release page',
-        link: "https://nikolayyaroslavcev.github.io/order/",
-        git: 'https://github.com/NikolayYaroslavcev/ragnarok',
-        img: god,
+        title: "Creative Scroll",
+        description: 'Creative Scroll',
+        link: "https://nikolayyaroslavcev.github.io/htmlDev/",
+        git: 'https://github.com/NikolayYaroslavcev/creative',
+        img: scroll,
     },
     {
         title: "Preparing",
         description: 'Site for online preparation for the GSE',
-        link: "https://nikolayyaroslavcev.github.io/order/",
-        git: 'https://github.com/NikolayYaroslavcev/order',
+        link: "https://github.com/NikolayYaroslavcev/order",
+        git: 'https://nikolayyaroslavcev.github.io/order/',
         img: course,
     },
     {
