@@ -48,7 +48,7 @@ export const myWorksDate = [
         description: 'harry potter at your party',
         link: "https://nikolayyaroslavcev.github.io/potter/",
         git: 'https://github.com/NikolayYaroslavcev/potter',
-        img: teleport,
+        img: potter,
     },
     {
         title: "Teleport",
