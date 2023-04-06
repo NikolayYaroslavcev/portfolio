@@ -12,6 +12,7 @@ import ui from '../assets/img/ui.png'
 import converter from '../assets/img/converter.png'
 import scroll from '../assets/img/scroll.png'
 import potter from '../assets/img/potter.png'
+import lorian from '../assets/img/Lorian.png'
 
 
 export const myWorksDate = [
@@ -56,6 +57,13 @@ export const myWorksDate = [
         link: "https://nikolayyaroslavcev.github.io/teleportbuild/",
         git: 'https://github.com/NikolayYaroslavcev/Teleport',
         img: teleport,
+    },
+    {
+        title: "Lorian store",
+        description: 'Online store page',
+        link: "https://github.com/NikolayYaroslavcev/Shop",
+        git: 'https://github.com/NikolayYaroslavcev/Shop',
+        img: converter,
     },
     {
         title: "Converter",
