@@ -63,7 +63,7 @@ export const myWorksDate = [
         description: 'Online store page',
         link: "https://github.com/NikolayYaroslavcev/Shop",
         git: 'https://github.com/NikolayYaroslavcev/Shop',
-        img: converter,
+        img: lorian,
     },
     {
         title: "Converter",
