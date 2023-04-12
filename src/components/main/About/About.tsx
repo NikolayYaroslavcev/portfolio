@@ -16,7 +16,7 @@ const textAnimation = {
     visible: custom => ({
         y: 0,
         opacity: 1,
-        transition: {delay: custom * 0.3,one: true },
+        transition: {delay: custom * 0.3, one: true},
     }),
 }
 
@@ -26,7 +26,7 @@ export const About = () => {
         <motion.section
             initial='hidden'
             whileInView='visible'
-            viewport={{amount:0.3, once:true}}
+            viewport={{amount: 0.3, once: true}}
             id="home" className={sAbout.about}>
             <div className={sAbout.__container}>
                 <div className={sAbout.aboutAs}>
@@ -41,14 +41,13 @@ export const About = () => {
                             FRONT-END DEVELOPER (REACT DEVELOPER)
                         </motion.p>
                         <motion.p custom={3} variants={textAnimation} className={sAbout.about}>
-                            Hi, I am Nikolai Yaroslavtsev. I have
-                            experience in creating SPA using
-                            React/Redux/TypesScript individually
-                            and in team. At the moment I am
-                            studying React Native and the book
-                            Grokking Algorithms and practicing
-                            with tutor in English.
-                            Open to your suggestions
+                            Hi,
+                            My name is Nikolai Yaroslavtsev. I have experience in creating both SPA and websites both
+                            individually and in teams. In addition, I have worked with various web studios and clients
+                            as a freelancer in the field of frontend development. I have used technologies such as HTML,
+                            Pug, CSS, SCSS, JavaScript, Git, Gulp, React, Redux, Redux-thunk, TypeScript,
+                            React-router-dom v6, Redux-form, Axios, Ant Design, and Animate.js.
+                            I am open to offers and willing to relocate. I would be happy to consider your proposals.
                         </motion.p>
                         <a href={NikolayYaroslavcev} download className={sAbout.cta}>
                             <span>Download CV</span>
