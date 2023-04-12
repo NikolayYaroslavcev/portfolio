@@ -13,6 +13,8 @@ import converter from '../assets/img/converter.png'
 import scroll from '../assets/img/scroll.png'
 import potter from '../assets/img/potter.png'
 import lorian from '../assets/img/Lorian.png'
+import boldo from '../assets/img/boldo.png'
+
 
 
 export const myWorksDate = [
@@ -64,6 +66,13 @@ export const myWorksDate = [
         link: "https://github.com/NikolayYaroslavcev/Shop",
         git: 'https://github.com/NikolayYaroslavcev/Shop',
         img: lorian,
+    },
+    {
+        title: "Boldo",
+        description: 'Thoughts and words',
+        link: "https://github.com/NikolayYaroslavcev/Shop",
+        git: 'https://nikolayyaroslavcev.github.io/scand-test/',
+        img: boldo,
     },
     {
         title: "Converter",
