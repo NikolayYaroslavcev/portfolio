@@ -14,13 +14,21 @@ import scroll from '../assets/img/scroll.png'
 import potter from '../assets/img/potter.png'
 import lorian from '../assets/img/Lorian.png'
 import boldo from '../assets/img/boldo.png'
+import cream from '../assets/img/cream.png'
 
 
 
 export const myWorksDate = [
     {
+        title: "Skin cream",
+        description: 'Skin cream store',
+        link: "https://nikolayyaroslavcev.github.io/skin-cream/",
+        git: 'https://github.com/NikolayYaroslavcev/skin-cream',
+        img: cream,
+    },
+    {
         title: "Toothpick",
-        description: 'Online Store',
+        description: 'Online store',
         link: "https://nikolayyaroslavcev.github.io/zubcist/",
         git: 'https://github.com/NikolayYaroslavcev/zubcist',
         img: zub,
